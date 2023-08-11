@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 150px 0;
+}
+
+/* Input Styling  */
+input {
+  width: 600px;
+  padding: 15px 50px;
+  margin-top: 20px;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  background: url(../images/mic.svg) no-repeat,
+    url(../images/search.svg) no-repeat;
+  background-position: right 15px center, left 15px center;
+  background-size: 23px, 20px;
+  cursor: pointer;
+}
+input:focus {
+  outline: none;
+  box-shadow: 2px 3px 4px 2px #ccc;
+}
+
+/* Buttons Styling  */
+.btn-container {
+  margin-top: 30px;
+}
+.btn {
+  padding: 10px 20px;
+  border: none;
+  color: #5f6368;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+/* Languages Styling  */
+div.languages {
+  margin-top: 40px;
+}
+ol.languages li {
+  list-style: none;
+  display: inline;
+  margin-right: 10px;
+  font-size: 13px;
+}
+ol.languages li a {
+  text-decoration: none;
+}
+
+/* Footer Styling */
+footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 0;
+  padding: 15px;
+  background-color: #f2f2f2;
+  border-top: 1px solid #e4e4e4;
+}
+footer ol li {
+  display: inline;
+  padding-right: 30px;
+  color: #676767;
+  font-size: 13px;
+}
